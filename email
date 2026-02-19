@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <h1>email log in</h1>
+</header>
+   
+    <nav>
+      <a href="#cards">Cards</a>
+      <a href="#form">Form</a>
+      <a href="#list">List</a>
+    </nav>
+
+     <section id="form" class="stack">
+      <h2>Form</h2>
+      <form class="stack">
+        <label>Email
+          <input type="email" placeholder="you@example.com" required />
+        </label>
+
+        <label>Password
+          <input type="password" placeholder="••••••••" required />
+        </label>
+
+        <button class="btn btn-primary" type="submit">login Account</button>
+      </form>
+    </section>
+    <footer></footer>
